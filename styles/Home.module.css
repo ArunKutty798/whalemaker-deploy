@@ -1,0 +1,136 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.connect {
+  padding: 0.5em 1em;
+  display: flex;
+  align-items: center;
+  grid-gap: 0.75em;
+  border-radius: 100px;
+  outline: none;
+  border: 1.5px solid var(--textPrimary);
+  background-color: transparent;
+}
+
+.connect span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: var(--textPrimary);
+}
+
+.faq {
+  padding: 2em 3em;
+  margin-bottom: 5em;
+}
+
+.faqCardWrapper {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1em;
+  margin-top: 1.5em;
+}
+
+.faqCard {
+  background: #0a131c;
+  border-radius: 8px;
+  padding: 1.5em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.roadmap {
+  padding: 2em 3em;
+  margin-bottom: 5em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.roadmapCardWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3em;
+}
+
+.roadmapCard:not(:last-of-type) {
+  overflow-x: hidden;
+}
+
+.roadmapCard:nth-child(1) {
+  overflow-x: visible;
+}
+
+.pointer {
+  background: rgba(255, 255, 255, 0.2);
+  width: 1.5em;
+  height: 1.5em;
+  margin: 1em 0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.pointer p {
+  width: 50%;
+  height: 50%;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.pointer p::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 800px;
+  height: 1px;
+}
+
+.pointer p::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 800px;
+  height: 1px;
+}
+
+@media (max-width: 768px) {
+  .faq,
+  .roadmap {
+    padding: 2em;
+  }
+  .roadmapCardWrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+  }
+}
+
+@media (max-width: 576px) {
+  .roadmapCardWrapper {
+    grid-template-columns: 1fr;
+    grid-row-gap: 1em;
+  }
+  .pointer {
+    display: none;
+  }
+  .roadmapCard {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1em;
+  }
+}
