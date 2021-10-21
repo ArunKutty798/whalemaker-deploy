@@ -5,7 +5,7 @@ const Story = () => {
   const renderWhatIsWhaleMarket = (
     <div className={styles.market}>
       <div>
-        <p className="text_pri_32">What is The Whale Maker</p>
+        <p className="text_pri_32">What is The Whale Maker?</p>
         <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
           The Whale Maker is a collection of 10,000 Whales that each serve a
           pass (Whale Pass) to the exclusive Whale Maker Community. The Whale
