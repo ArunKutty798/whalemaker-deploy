@@ -5,22 +5,22 @@ const roadmaps = [
   {
     name: "current stage",
     description:
-      "Felis, penatibus senectus cum erat laoreet in proin sed cursus. Sed imperdiet turpis vel.",
+      "From First Whale: 20% of all Sales will go to Whale Treasury for purchasing Whales from OS.",
   },
   {
     name: "3 months",
     description:
-      "Felis, penatibus senectus cum erat laoreet in proin sed cursus. Sed imperdiet turpis vel.",
+      "20% Sold - Launch Staking: Drop your whale in our ocean to earn $KRILL which can be used in the Whale Maker Store",
   },
   {
     name: "6 months",
     description:
-      "Felis, penatibus senectus cum erat laoreet in proin sed cursus. Sed imperdiet turpis vel.",
+      "50% Sold - Launch The Whale Maker Store: This is where you can use your $KRILL to buy pre-mint, presale, and whitelist spots from our partner projects.",
   },
   {
     name: "9 months",
     description:
-      "Felis, penatibus senectus cum erat laoreet in proin sed cursus. Sed imperdiet turpis vel.",
+      "100% Sold - Launch The Whale Shark Alpha Chat and WhaleMakerDAO: A community led DAO that will seek out and devour the best projects in the market. As there is no public sale we will do a release once we have sold out.",
   },
 ];
 

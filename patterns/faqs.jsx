@@ -18,7 +18,9 @@ const Card = ({ question, ans }) => {
       </div>
       {open && (
         <p className="text_sec_14" style={{ paddingTop: "1em" }}>
-          {ans}
+          {ans.map((info, index) => {
+            return <p key={index}>{info}</p>;
+          })}
         </p>
       )}
     </div>

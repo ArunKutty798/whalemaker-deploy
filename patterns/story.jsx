@@ -5,12 +5,15 @@ const Story = () => {
   const renderWhatIsWhaleMarket = (
     <div className={styles.market}>
       <div>
-        <p className="text_pri_32">What is Whale Marker NFT Pools?</p>
+        <p className="text_pri_32">What is The Whale Maker</p>
         <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
-          Whale Marker is a collection of 10,000 unique Whale NFTs on the
-          Ethereum blockchain. Each whale is a holder's avatar and ticket to
-          enter the blockchain game, Whale Marker. Moreover, holders can
-          participate in exclusive content airdrops and earn tokens.
+          The Whale Maker is a collection of 10,000 Whales that each serve a
+          pass (Whale Pass) to the exclusive Whale Maker Community. The Whale
+          Maker is a 100% private mint. There will be NO PUBLIC SALE. To gain
+          access you must become an OG Whale before we mint. Holders will get
+          first access to partner mints, presales, whitelists, and events.
+          Collect and stake 10 Whales to become a Whale Shark and get access to
+          our Alpha Chat and WhaleMakerDAO.
         </p>
         <p className="text_sec_16">
           The collection of Whale Marker is stored as ERC-721 tokens on the
@@ -56,23 +59,20 @@ const Story = () => {
         </div>
       </div>
       <div>
-        <p className="text_pri_32">The Story Behind</p>
+        <p className="text_pri_32">The Story Behind The Whale Maker</p>
         <p className="text_sec_16" style={{ margin: "1.5em 0" }}>
-          In 2140, the infectious disease crashed the stability of the
-          environment; it was slowly rendering Earth uninhabitable. Scientists
-          had to discover another "Earth" to avoid the extinction of all life on
-          Earth. Years later, a team of 10 people arrived at a planet where
-          there was endless sand. They called it Harena. Unfortunately,
-          scientists determined Harena was not suitable for human colonization.
-          Without enough fuel, they couldn't travel back to Earth. So the
-          surviving 10 decided to transport their consciousness into the only
-          creatures that could survive in the condition - meerkats.
+          What started as a simple Discord Community has grown into one of the
+          most sought after clubs “The OG Whales”.
+        </p>
+        <p className="text_sec_16" style={{ margin: "1.5em 0" }}>
+          The group seeks out and votes on verifying other NFT Projects. Once
+          verified they provide the full support of their community, promotion
+          army, press team, and marketing teams.
         </p>
         <p className="text_sec_16">
-          500 years later, the meerkats having inherited the will of humankind,
-          evolved into the most superior intelligent creature in this universe.
-          A civilization was built on Harena and the other five neighboring
-          planets. They called themselves - Galaxy Kats.
+          When the whales move.. They make waves. Less than 5% of projects that
+          apply for verification receive it. This is the #1 Community to find
+          and gain access to the best NFT Projects on the Market.
         </p>
       </div>
     </div>

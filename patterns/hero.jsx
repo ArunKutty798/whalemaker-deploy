@@ -60,14 +60,13 @@ const Hero = () => {
           </button>
         </div>
         <div className={styles.content}>
-          <p className="text_pri_32">Whale Marker NFT</p>
+          <p className="text_pri_32">The Whale Maker</p>
           <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
-            Felis, penatibus senectus cum erat laoreet in proin sed cursus. Sed
-            imperdiet turpis vel dignissim mauris lectus. A fames etiam egestas
-            metus. Vitae elit.
+            A community driven NFT Project designed to support the ambitions of
+            our OG Whale Collectors.
           </p>
           <p className="text_sec_16">
-            Each Whale adoption is priced at 0.05 F + Gas
+            Each Whale Adoption is 0.05 + gas OG Whale Mint
           </p>
           <button className={styles.primaryBtn}>Ambassdor to claim</button>
           {renderSocialMediaLinks}

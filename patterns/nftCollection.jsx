@@ -28,7 +28,7 @@ const NftCollection = () => {
 
   return (
     <div className={styles.nftCollection}>
-      <p className="text_pri_32">Discover the Whale Marker NFT collection</p>
+      <p className="text_pri_32">Discover The Whale Maker Collection</p>
       {renderCollections}
     </div>
   );
