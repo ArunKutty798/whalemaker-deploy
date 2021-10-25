@@ -81,11 +81,11 @@ const Story = () => {
   return (
     <div className={styles.story}>
       {renderWhatIsWhaleMarket}
-      <div className={styles.flexGap} style={{ marginTop: "-4em" }}>
+      {/* <div className={styles.flexGap} style={{ marginTop: "-4em" }}>
         <img src="/icons/turtle.svg" alt="fish" className={styles.fish2} />
         <img src="/icons/redFish.svg" alt="fish" className={styles.fish3} />
         <img src="/icons/whiteFish.svg" alt="fish" className={styles.fish1} />
-      </div>
+      </div> */}
       {renderTheStory}
       <div className={styles.flexGap}>
         <img src="/icons/redFish.svg" alt="fish" className={styles.fish1} />
