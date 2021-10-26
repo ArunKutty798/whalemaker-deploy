@@ -17,11 +17,11 @@ const Card = ({ question, ans }) => {
         )}
       </div>
       {open && (
-        <p className="text_sec_14" style={{ paddingTop: "1em" }}>
+        <ul className="text_sec_14" style={{ padding: "1em 2em" }}>
           {ans.map((info, index) => {
-            return <p key={index}>{info}</p>;
+            return <li key={index}>{info}</li>;
           })}
-        </p>
+        </ul>
       )}
     </div>
   );

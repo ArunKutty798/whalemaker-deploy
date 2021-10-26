@@ -5,7 +5,7 @@ const roadmaps = [
   {
     name: "First wave",
     description: [
-      "10,000 Whale Passes will be minted",
+      "1000 Whale Sharks will be minted",
       "Private sale ONLY",
       "You must meet OG Whale Status > see server <link>",
       "Launch of WhaleMakerDAO",
@@ -14,7 +14,6 @@ const roadmaps = [
   {
     name: "Second wave",
     description: [
-      "Swap 10 Whale Passes for 1 Whale Shark NFT",
       "Top industry artists is minting only 1000 Whale Sharks",
       "Launch of Whale Shark Alpha Chat",
     ],
@@ -24,7 +23,6 @@ const roadmaps = [
     description: [
       "Launch of the Aquarium",
       "Stake your Whale Pass to earn 1 $KRILL per day",
-      "Stake your Whale Shark to earn 10 $KRILL per day",
     ],
   },
   {
@@ -54,13 +52,16 @@ const Roadmap = () => {
               <p></p>
             </div>
             {/* <p className="text_sec_14">{data.description}</p> */}
-            {data.description.map((info, index) => {
-              return (
-                <p key={index} className="text_sec_14">
-                  {info}
-                </p>
-              );
-            })}
+            <ul>
+              {data.description.map((info, index) => {
+                return (
+                  <li key={index} className="text_sec_14">
+                    {info}
+                  </li>
+                );
+              })}
+            </ul>
+            )
           </div>
         );
       })}

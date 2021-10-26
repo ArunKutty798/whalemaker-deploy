@@ -5,7 +5,7 @@ import styles from "../styles/patterns/footer.module.css";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.content}>
+      {/* <div className={styles.content}>
         <p className="text_pri_32">Join Community</p>
         <p className="text_sec_14" style={{ margin: "1.5em 0" }}>
           Molestie donec consectetur vestibulum amet, placerat sed porttitor
@@ -20,7 +20,7 @@ const Footer = () => {
         >
           <button className="secondary_btn">Join our discord</button>
         </a>
-      </div>
+      </div> */}
       <div className={styles.flexGap}>
         <p className="text_sec_14">
           Proudly powered by Whale Marker NFT Pools© 2021. All rights reserved.

@@ -22,7 +22,7 @@ export default function Home() {
       {/* <NftCollection /> */}
       <Roadmap />
       <Faqs />
-      <Teams />
+      {/* <Teams /> */}
     </div>
   );
 }

@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: bottom;
   overflow: hidden;
+  margin: 3.2em;
 }
 
 .market {
@@ -39,6 +40,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.5em;
+  /* margin: 1em; */
 }
 
 .block_grid {
