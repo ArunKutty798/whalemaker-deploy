@@ -3,24 +3,43 @@ import styles from "../styles/Home.module.css";
 
 const roadmaps = [
   {
-    name: "current stage",
-    description:
-      "From First Whale: 20% of all Sales will go to Whale Treasury for purchasing Whales from OS.",
+    name: "First wave",
+    description: [
+      "10,000 Whale Passes will be minted",
+      "Private sale ONLY",
+      "You must meet OG Whale Status > see server <link>",
+      "Launch of WhaleMakerDAO",
+    ],
   },
   {
-    name: "3 months",
-    description:
-      "20% Sold - Launch Staking: Drop your whale in our ocean to earn $KRILL which can be used in the Whale Maker Store",
+    name: "Second wave",
+    description: [
+      "Swap 10 Whale Passes for 1 Whale Shark NFT",
+      "Top industry artists is minting only 1000 Whale Sharks",
+      "Launch of Whale Shark Alpha Chat",
+    ],
   },
   {
-    name: "6 months",
-    description:
-      "50% Sold - Launch The Whale Maker Store: This is where you can use your $KRILL to buy pre-mint, presale, and whitelist spots from our partner projects.",
+    name: "Third wave",
+    description: [
+      "Launch of the Aquarium",
+      "Stake your Whale Pass to earn 1 $KRILL per day",
+      "Stake your Whale Shark to earn 10 $KRILL per day",
+    ],
   },
   {
-    name: "9 months",
-    description:
-      "100% Sold - Launch The Whale Shark Alpha Chat and WhaleMakerDAO: A community led DAO that will seek out and devour the best projects in the market. As there is no public sale we will do a release once we have sold out.",
+    name: "Fourth wave",
+    description: [
+      "Launch of the Whale Store",
+      "Use your $KRILL to buy",
+      "Premint on partner projects",
+      "Presale on partner projects",
+      "Whitelist on partner projects",
+    ],
+  },
+  {
+    name: "Fifth wave",
+    description: ["Coming Soon"],
   },
 ];
 
@@ -34,7 +53,14 @@ const Roadmap = () => {
             <div className={styles.pointer}>
               <p></p>
             </div>
-            <p className="text_sec_14">{data.description}</p>
+            {/* <p className="text_sec_14">{data.description}</p> */}
+            {data.description.map((info, index) => {
+              return (
+                <p key={index} className="text_sec_14">
+                  {info}
+                </p>
+              );
+            })}
           </div>
         );
       })}

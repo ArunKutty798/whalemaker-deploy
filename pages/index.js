@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Story />
-      <NftCollection />
+      {/* <NftCollection /> */}
       <Roadmap />
       <Faqs />
       <Teams />

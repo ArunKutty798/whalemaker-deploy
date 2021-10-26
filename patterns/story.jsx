@@ -6,21 +6,80 @@ const Story = () => {
     <div className={styles.market}>
       <div>
         <p className="text_pri_32">What is The Whale Maker?</p>
-        <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
-          The Whale Maker is a collection of 10,000 Whales that each serve a
-          pass (Whale Pass) to the exclusive Whale Maker Community. The Whale
-          Maker is a 100% private mint. There will be NO PUBLIC SALE. To gain
-          access you must become an OG Whale before we mint. Holders will get
-          first access to partner mints, presales, whitelists, and events.
-          Collect and stake 10 Whales to become a Whale Shark and get access to
-          our Alpha Chat and WhaleMakerDAO.
-        </p>
-        <p className="text_sec_16">
-          The collection of Whale Marker is stored as ERC-721 tokens on the
-          Ethereum blockchain.
-        </p>
+        <div className={styles.story_block}>
+          <div>
+            <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
+              <span
+                style={{ fontWeight: "bold", fontSize: "1.1em" }}
+                className="text_sec_16"
+              >
+                WHAT IS WHALE PASS?
+              </span>
+              Whale Pass is the NFT for this project and has various rewards:
+              access to │og-whale chat access to premint, presale, and whitelist
+              for our partner projects + airdrops from our partners
+            </p>
+            <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
+              <span
+                style={{ fontWeight: "bold", fontSize: "1.1em" }}
+                className="text_sec_16"
+              >
+                {" "}
+                WHAT IS WHALE SHARK?
+              </span>
+              You'll need to trade 10 Whale Passes to get a Whale Shark. Each
+              Whale Shark has upgraded benefits such as: It gets you access to
+              the WhaleMakerDAO and Alpha Chat It gives you 10x staking rewards
+              It gives you first access to premint, presale, and whitelist for
+              our partner projects
+            </p>
+            <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
+              <span
+                style={{ fontWeight: "bold", fontSize: "1.1em" }}
+                className="text_sec_16"
+              >
+                HOW DOES STAKING WORK?{" "}
+              </span>
+              Our token will be called $KRILL You'll get 1 per day for Whale
+              Pass You'll get 10 per day for Whale Shark $KRILL will be listed
+              and liquid on Uni We will have the "Whale Shop" where only owners
+              can buy premint, presale, and whitelist - only using $KRILL (so
+              it'll have direct utility)
+            </p>
+          </div>
+          <div>
+            <p
+              className="text_sec_16"
+              style={{ margin: "1em 0 1.5em" }}
+              className="text_sec_16"
+            >
+              <span style={{ fontWeight: "bold", fontSize: "1.1em" }}>
+                {" "}
+                WHAT IS ALPHA CHAT?
+              </span>
+              Alpha chat is a private chat reserved for Whale Sharks. This
+              community based chat is designed to seek out opportunities and
+              validate potential projects. It is a DAO Driven Community who
+              votes on any and all group participation in projects.
+            </p>
+            <p
+              className="text_sec_16"
+              style={{ margin: "1em 0 1.5em" }}
+              className="text_sec_16"
+            >
+              <span style={{ fontWeight: "bold", fontSize: "1.1em" }}>
+                WHAT IS THE WHALEMAKERDAO?
+              </span>
+              WhaleShark is a governance token. By owning WhaleShark, you can
+              vote on WhaleMakerDAO proposals and work on your own proposals
+              with other WhaleMakerDAO members. Owning any number of WhaleSharks
+              allows access to WhaleMakerDAO channels where you can help steer
+              the future of WhaleMakerDAO within our committees.
+            </p>
+          </div>
+        </div>
       </div>
-      <div className={styles.cardWrapper}>
+      {/* <div className={styles.cardWrapper}>
         <div className={styles.card}>
           <div>
             <p className="text_pri_32 mb-10">6+</p>
@@ -38,7 +97,7 @@ const Story = () => {
           <p className="text_sec_16">Whales</p>
           <img src="/icons/logoPassthrough.svg" alt="logo" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 
@@ -86,12 +145,12 @@ const Story = () => {
         <img src="/icons/redFish.svg" alt="fish" className={styles.fish3} />
         <img src="/icons/whiteFish.svg" alt="fish" className={styles.fish1} />
       </div> */}
-      {renderTheStory}
-      <div className={styles.flexGap}>
+      {/* {renderTheStory} */}
+      {/* <div className={styles.flexGap}>
         <img src="/icons/redFish.svg" alt="fish" className={styles.fish1} />
         <img src="/icons/whiteFish.svg" alt="fish" className={styles.fish2} />
         <img src="/icons/turtle.svg" alt="fish" className={styles.fish3} />
-      </div>
+      </div> */}
     </div>
   );
 };
