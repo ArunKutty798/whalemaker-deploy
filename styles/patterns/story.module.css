@@ -8,6 +8,8 @@
 }
 
 .market {
+  width: "50%";
+  margin: 0 auto;
   margin-bottom: 5em;
 }
 
@@ -37,9 +39,10 @@
 }
 
 .story_block {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1.5em;
+  /* display: grid;
+  grid-template-columns: 1fr; */
+  width: "50%";
+  margin: 0 auto;
   /* margin: 1em; */
 }
 

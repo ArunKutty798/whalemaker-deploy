@@ -153,7 +153,7 @@ const Story = () => {
   );
 
   return (
-    <div className={styles.story}>
+    <div className={styles.story} style={{ width: "60%", margin: "0 auto" }}>
       {renderWhatIsWhaleMarket}
       {/* <div className={styles.flexGap} style={{ marginTop: "-4em" }}>
         <img src="/icons/turtle.svg" alt="fish" className={styles.fish2} />
