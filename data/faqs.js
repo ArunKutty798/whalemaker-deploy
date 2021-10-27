@@ -1,7 +1,7 @@
 export const faqs = [
   {
     question: "1000 Whale Shark NFTS",
-    ans: [" Mint 0.5 ETH", " OG Whale Mint Only"],
+    ans: [" Mint 0.5 ETH", " OG Whale Mint Only", "Max 2 Mint Per Wallet"],
   },
   {
     question: "How to become an “OG Whale” (you only need to do one of these)",
@@ -14,7 +14,7 @@ export const faqs = [
   },
   {
     question: "Staking",
-    ans: ["1 WhaleShark  = 1 $KRILL per day"],
+    ans: ["One WhaleShark  = 1 $KRILL per day"],
   },
   {
     question: "$KRILL Utility (carries no financial value)",

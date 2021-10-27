@@ -7,7 +7,9 @@ const roadmaps = [
     description: [
       "1000 Whale Sharks will be minted",
       "Private sale ONLY",
-      "You must meet OG Whale Status > see server <link>",
+      `You must meet OG Whale Status see server ${(
+        <a href="https://discord.gg/Npfz78G5">https://discord.gg/Npfz78G5</a>
+      )}`,
       "Launch of WhaleMakerDAO",
     ],
   },
@@ -40,31 +42,79 @@ const roadmaps = [
     description: ["Coming Soon"],
   },
 ];
-
+//text_sec_14
+//text_pri_14;
 const Roadmap = () => {
   const renderRoadmaps = (
     <div className={styles.roadmapCardWrapper}>
-      {roadmaps.map((data, index) => {
-        return (
-          <div key={index} className={styles.roadmapCard}>
-            <p className="text_pri_14">{data.name}</p>
-            <div className={styles.pointer}>
-              <p></p>
-            </div>
-            {/* <p className="text_sec_14">{data.description}</p> */}
-            <ul>
-              {data.description.map((info, index) => {
-                return (
-                  <li key={index} className="text_sec_14">
-                    {info}
-                  </li>
-                );
-              })}
-            </ul>
-            )
-          </div>
-        );
-      })}
+      <div className={styles.roadmapCard}>
+        <p className="text_pri_14">First Wave</p>
+        <div className={styles.pointer}>
+          <p></p>
+        </div>
+        <ul>
+          <li className="text_sec_14">1000 Whale Sharks will be minted</li>
+          <li className="text_sec_14">Private sale ONLY</li>
+          <li className="text_sec_14">
+            You must meet OG Whale Status see server
+            <a href="https://discord.gg/Npfz78G5" style={{ display: "block" }}>
+              https://discord.gg/Npfz78G5
+            </a>
+          </li>
+          <li className="text_sec_14 ">Launch of WhaleMakerDAO</li>
+        </ul>
+        )
+      </div>
+      <div className={styles.roadmapCard}>
+        <p className="text_pri_14">Second Wave</p>
+        <div className={styles.pointer}>
+          <p></p>
+        </div>
+        <ul>
+          <li className="text_sec_14">
+            Top industry artists is minting only 1000 Whale Sharks
+          </li>
+          <li className="text_sec_14">Launch of Whale Shark Alpha Chat</li>
+        </ul>
+        )
+      </div>
+      <div className={styles.roadmapCard}>
+        <p className="text_pri_14">Third Wave</p>
+        <div className={styles.pointer}>
+          <p></p>
+        </div>
+        <ul>
+          <li className="text_sec_14">Launch of the Aquarium</li>
+          <li className="text_sec_14">
+            Stake your Whale Pass to earn 10 $KRILL per day
+          </li>
+        </ul>
+        )
+      </div>
+      <div className={styles.roadmapCard}>
+        <p className="text_pri_14">Fourth Wave</p>
+        <div className={styles.pointer}>
+          <p></p>
+        </div>
+        <ul>
+          <li className="text_sec_14">Launch of the Whale Store</li>
+          <li className="text_sec_14">Use your $KRILL to buy</li>
+          <li className="text_sec_14">Premint on partner projects</li>
+          <li className="text_sec_14">Whitelist on partner projects</li>
+        </ul>
+        )
+      </div>
+      <div className={styles.roadmapCard}>
+        <p className="text_pri_14">Fifth Wave</p>
+        <div className={styles.pointer}>
+          <p></p>
+        </div>
+        <ul>
+          <li className="text_sec_14">Coming Soon</li>
+        </ul>
+        )
+      </div>
+      );
     </div>
   );
 

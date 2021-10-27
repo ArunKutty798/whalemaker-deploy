@@ -8,17 +8,19 @@ const Story = () => {
         <p className="text_pri_32">What is The Whale Maker?</p>
         <div className={styles.story_block}>
           <div>
-            <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
+            {/* <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
               <span
                 style={{ fontWeight: "bold", fontSize: "1.1em" }}
                 className="text_sec_16"
               >
                 WHAT IS WHALE PASS?
               </span>
-              Whale Pass is the NFT for this project and has various rewards:
-              access to │og-whale chat access to premint, presale, and whitelist
-              for our partner projects + airdrops from our partners
-            </p>
+              <p>
+                Whale Pass is the NFT for this project and has various rewards:
+                access to │og-whale chat access to premint, presale, and
+                whitelist for our partner projects + airdrops from our partners
+              </p>
+            </p> */}
             <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
               <span
                 style={{ fontWeight: "bold", fontSize: "1.1em" }}
@@ -27,11 +29,12 @@ const Story = () => {
                 {" "}
                 WHAT IS WHALE SHARK?
               </span>
-              You'll need to trade 10 Whale Passes to get a Whale Shark. Each
-              Whale Shark has upgraded benefits such as: It gets you access to
-              the WhaleMakerDAO and Alpha Chat It gives you 10x staking rewards
-              It gives you first access to premint, presale, and whitelist for
-              our partner projects
+              <p>
+                Each Whale Shark has upgraded benefits such as: It gets you
+                access to the WhaleMakerDAO and Alpha Chat It gives you 10x
+                staking rewards It gives you first access to premint, presale,
+                and whitelist for our partner projects
+              </p>
             </p>
             <p className="text_sec_16" style={{ margin: "1em 0 1.5em" }}>
               <span
@@ -40,11 +43,12 @@ const Story = () => {
               >
                 HOW DOES STAKING WORK?{" "}
               </span>
-              Our token will be called $KRILL You'll get 1 per day for Whale
-              Pass You'll get 10 per day for Whale Shark $KRILL will be listed
-              and liquid on Uni We will have the "Whale Shop" where only owners
-              can buy premint, presale, and whitelist - only using $KRILL (so
-              it'll have direct utility)
+              <p>
+                Our token will be called $KRILL.You'll get 10 per day for Whale
+                Shark $KRILL.We will have the "Whale Shop" where only owners can
+                buy premint, presale, and whitelist - only using $KRILL (so
+                it'll have direct utility)
+              </p>
             </p>
           </div>
           <div>
@@ -57,10 +61,12 @@ const Story = () => {
                 {" "}
                 WHAT IS ALPHA CHAT?
               </span>
-              Alpha chat is a private chat reserved for Whale Sharks. This
-              community based chat is designed to seek out opportunities and
-              validate potential projects. It is a DAO Driven Community who
-              votes on any and all group participation in projects.
+              <p>
+                Alpha chat is a private chat reserved for Whale Sharks. This
+                community based chat is designed to seek out opportunities and
+                validate potential projects. It is a DAO Driven Community who
+                votes on any and all group participation in projects.
+              </p>
             </p>
             <p
               className="text_sec_16"
@@ -70,11 +76,14 @@ const Story = () => {
               <span style={{ fontWeight: "bold", fontSize: "1.1em" }}>
                 WHAT IS THE WHALEMAKERDAO?
               </span>
-              WhaleShark is a governance token. By owning WhaleShark, you can
-              vote on WhaleMakerDAO proposals and work on your own proposals
-              with other WhaleMakerDAO members. Owning any number of WhaleSharks
-              allows access to WhaleMakerDAO channels where you can help steer
-              the future of WhaleMakerDAO within our committees.
+              <p>
+                WhaleShark is a governance token. By owning WhaleShark, you can
+                vote on WhaleMakerDAO proposals and work on your own proposals
+                with other WhaleMakerDAO members. Owning any number of
+                WhaleSharks allows access to WhaleMakerDAO channels where you
+                can help steer the future of WhaleMakerDAO within our
+                committees.
+              </p>
             </p>
           </div>
         </div>
