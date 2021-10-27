@@ -68,9 +68,9 @@ const Hero = () => {
             our OG Whale Collectors.
           </p>
           <p className="text_sec_16" style={{ fontSize: "1.2em" }}>
-            Each Whale Adoption is 0.05 + gas OG Whale Mint
+            Each Whale Adoption is 0.5 + gas OG Whale Mint
           </p>
-          <button className={styles.primaryBtn}>Ambassdor to claim</button>
+          <button className={styles.primaryBtn}>CLAIM</button>
           {renderSocialMediaLinks}
         </div>
       </div>
