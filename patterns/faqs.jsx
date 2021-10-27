@@ -38,7 +38,9 @@ const Faqs = () => {
 
   return (
     <div className={styles.faq}>
-      <p className="text_pri_32">FAQs</p>
+      <p className="text_pri_32" style={{ textAlign: "center", width: "100%" }}>
+        FAQs
+      </p>
       {renderFaqs}
     </div>
   );

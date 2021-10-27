@@ -26,6 +26,8 @@
 .faq {
   padding: 2em 3em;
   margin-bottom: 5em;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .faqCardWrapper {
@@ -49,41 +51,43 @@
 }
 
 .roadmap {
-  padding: 2em 3em;
   margin-bottom: 5em;
-  width: 100%;
-  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .roadmapCardWrapper {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   margin-top: 3em;
+  overflow: hidden;
 }
 
 .roadmapCard ul {
   margin-left: 1.1em;
 }
+
+.roadmapCard {
+  position: relative;
+  padding: 0 3em;
+}
 .width {
   width: "80%";
-}
-.roadmapCard:not(:last-of-type) {
-  overflow-x: hidden;
-}
-
-.roadmapCard:nth-child(1) {
-  overflow-x: visible;
 }
 
 .pointer {
   background: rgba(255, 255, 255, 0.2);
   width: 1.5em;
   height: 1.5em;
-  margin: 1em 0;
   border-radius: 50%;
   display: grid;
   place-items: center;
+  position: absolute;
+  top: 0;
+  left: 1.5em;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 .pointer p {
@@ -98,13 +102,18 @@
   content: "";
   background-color: #fff;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 800px;
-  height: 1px;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 500px;
 }
 
-.pointer p::before {
+.roadmapCard:nth-child(1) .pointer p::after {
+  display: none;
+}
+
+/* .pointer p::before {
   content: "";
   background-color: #fff;
   position: absolute;
@@ -113,20 +122,11 @@
   transform: translateY(-50%);
   width: 800px;
   height: 1px;
-}
-@media (max-width: 992px) {
-  .pointer {
-    display: none;
-  }
-}
+} */
+
 @media (max-width: 768px) {
-  .faq,
-  .roadmap {
+  .faq {
     padding: 2em;
-  }
-  .roadmapCardWrapper {
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 1em;
   }
 }
 
@@ -137,7 +137,6 @@
   }
 
   .roadmapCard {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     grid-gap: 1em;
