@@ -43,7 +43,7 @@ const Story = () => {
               >
                 HOW DOES STAKING WORK?{" "}
               </span>
-              <p>
+              <p className="text_sec_16">
                 Our token will be called $KRILL.You'll get 10 per day for Whale
                 Shark $KRILL.We will have the "Whale Shop" where only owners can
                 buy premint, presale, and whitelist - only using $KRILL (so
@@ -57,11 +57,14 @@ const Story = () => {
               style={{ margin: "1em 0 1.5em" }}
               className="text_sec_16"
             >
-              <span style={{ fontWeight: "bold", fontSize: "1.1em" }}>
+              <span
+                style={{ fontWeight: "bold", fontSize: "1.1em" }}
+                className="text_sec_16"
+              >
                 {" "}
                 WHAT IS ALPHA CHAT?
               </span>
-              <p>
+              <p className="text_sec_16">
                 Alpha chat is a private chat reserved for Whale Sharks. This
                 community based chat is designed to seek out opportunities and
                 validate potential projects. It is a DAO Driven Community who
@@ -73,10 +76,13 @@ const Story = () => {
               style={{ margin: "1em 0 1.5em" }}
               className="text_sec_16"
             >
-              <span style={{ fontWeight: "bold", fontSize: "1.1em" }}>
+              <span
+                style={{ fontWeight: "bold", fontSize: "1.1em" }}
+                className="text_sec_16"
+              >
                 WHAT IS THE WHALEMAKERDAO?
               </span>
-              <p>
+              <p className="text_sec_16">
                 WhaleShark is a governance token. By owning WhaleShark, you can
                 vote on WhaleMakerDAO proposals and work on your own proposals
                 with other WhaleMakerDAO members. Owning any number of
